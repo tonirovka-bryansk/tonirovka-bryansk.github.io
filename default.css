@@ -30,7 +30,6 @@ body {
 	background-repeat: no-repeat;
 	background-image: url("img/Background_logo.png");
 	background-size: 100%;
-	margin-bottom: 30px;
 }
 	
 
@@ -151,6 +150,7 @@ text-shadow: 1px 0 1px #000,
 .middle_top
 {
 	height: 250px;
+	max-height: 300px;
 }
 .middle_top_block
 {
@@ -182,16 +182,18 @@ text-shadow: 1px 0 1px #000,
 
 .middle_center
 {
-	height: 350px;
+	min-height: 250px;
+	max-height: 350px;
 }
 
 .middle_center_block1
 {
 	display: inline-block;	
-	width: 50%;
+	width: 45%;
 }
 .middle_center_block2
 {
+	width: 50%;
 	margin-left: 10px;
 	margin-top: 10px;
 	vertical-align: top;
@@ -220,7 +222,8 @@ text-shadow: 1px 0 1px #000,
 
 .middle_bottom
 {
-	height: 200px;
+	min-height: 200px;
+	max-height: 300px;
 }
 
 .Name
