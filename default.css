@@ -12,7 +12,7 @@ body {
 	font: 12px/18px Arial, sans-serif;
 	height: 100%;
 	transition: all .2s ease;
-	background-color: #e6e6e6;
+	background-color: #eeeeee;
 }
 .wrapper {
 	width: 100%;
@@ -26,84 +26,42 @@ body {
 -----------------------------------------------------------------------------*/
 
 .headerup {
-	height: 700px;
+	height: 450px;
 	background-repeat: no-repeat;
-	background-image: url("img/Background_logo.png");
+	background-image: url(img/Background_logo.png);
 	background-size: 100%;
 }
 	
 
 .bg_container
 {
-	margin: 0 auto;
 	width: 80%;
 	height: 12%;
 }
 	
-.slogan
-{
-	margin: 0 auto;
-	width: 70%;
-}
-
-.text_slogan
-{
-	text-shadow: 0 1px 1px #e6e6e6;
-	color: #ff0033;
-	vertical-align: top;
-	margin-top: 15px;
-	font-family: "Bender";
-	font-size: 20px;
-	line-height: 1.2;
-	text-decoration:none;
-}
-
-h1
-{
-	text-shadow: 1px 0 1px #e6e6e6, 
-0 1px 1px #e6e6e6, 
--1px 0 1px #e6e6e6, 
-0 -1px 1px #e6e6e6;
-
-	text-decoration:none;
-	color: #ff0033;
-	font-family: "Bender-Italic";
-	font-size: 48px;
-	line-height: 1.2;
-}
-
 h2
 {	
-text-shadow: 1px 0 1px #000, 
-0 1px 1px #000, 
--1px 0 1px #000, 
-0 -1px 1px #000;
 	text-decoration:none;
-color: #ff0033;
-	font-family: "Bender";
+color: #333333;
+font-weight: bold;
+	 font-family: Arial;
 	font-size: 26px;
 	line-height: 1;
 }
 h3
 {	
-text-shadow: 1px 0 1px #000, 
-0 1px 1px #000, 
--1px 0 1px #000;
 	text-decoration:none;
-	color: #ff0033;
-	font-family: "Bender";
-	font-size: 35px;
+	color: #353535;
+	font-weight: bold;
+	 font-family: Arial;
+	font-size: 32px;
 	line-height: 1;
 }
 h4
 {	
-text-shadow: 1px 0 1px #000, 
-0 1px 1px #000, 
--1px 0 1px #000, 
-0 -1px 1px #000;
 	text-decoration:none;
-	color: #ff0033;
-	font-family: "Bender";
+	color:  #474a51;
+	 font-family: Arial;
 	font-size: 32px;
 	line-height: 1;
 }
@@ -149,6 +107,7 @@ text-shadow: 1px 0 1px #000,
 
 .middle_top
 {
+	margin-top: 30px;
 	height: 250px;
 	max-height: 300px;
 }
@@ -172,7 +131,7 @@ text-shadow: 1px 0 1px #000,
 .block_text
 {
 	line-height: 1.5;
-	color: #9aa0ab;
+	color: #353535;
 	vertical-align: top;
 	margin-top: 20px;
 	font-family: "OpenSans";
@@ -248,7 +207,7 @@ text-shadow: 1px 0 1px #000,
 .description
 {
 	line-height: 1.5;
-	color: #9aa0ab;
+	color: #474a51;
 	vertical-align: top;
 	margin-top: 10px;
 	font-family: "OpenSans";
@@ -282,7 +241,7 @@ text-shadow: 1px 0 1px #000,
 .footer_text
 {
 	opacity: 0.6;
-	color: #b9c0c6;
+	color: #353535;
 	margin-top: 25px;
 	text-align: right;
 	vertical-align: middle;
